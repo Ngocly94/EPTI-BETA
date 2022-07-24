@@ -10,8 +10,8 @@ public void openBrowser() {
 	driver = new ChromeDriver();
 	
 	//open page: http://shop.demoqa.com
-	driver.get("https://demoqa.com/");
-	driver.manage().window().maximize();
+	driver.get("https://epti.vn/");
+//	driver.manage().window().maximize();
 
 }
 public void closeBrowser() {
